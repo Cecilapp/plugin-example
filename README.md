@@ -1,3 +1,3 @@
-# theme-example
+# plugin-example
 
-This is a Cecil theme example.
+This is a Cecil plugin example.

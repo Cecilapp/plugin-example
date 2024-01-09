@@ -1,8 +1,8 @@
 {
-  "name": "cecil/theme-example",
-  "type": "cecil-theme",
-  "description": "Cecil theme example",
-  "keywords": ["Cecil", "theme", "example"],
+  "name": "cecil/plugin-example",
+  "type": "cecil-plugin",
+  "description": "Cecil plugin example",
+  "keywords": ["Cecil", "plugin", "example"],
   "license": "MIT",
   "require": {
     "cecil/installer": "^1.0"
