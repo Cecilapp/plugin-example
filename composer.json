@@ -1,0 +1,23 @@
+{
+  "name": "cecil/theme-example",
+  "type": "cecil-theme",
+  "description": "Cecil theme example",
+  "keywords": ["Cecil", "theme", "example"],
+  "license": "MIT",
+  "require": {
+    "cecil/installer": "^1.0"
+  },
+  "extra": {
+    "name": "example",
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "cecil/installer": true
+    }
+  }
+}
