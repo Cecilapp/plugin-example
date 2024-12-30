@@ -1,10 +1,11 @@
 <?php
 namespace Cecil\Renderer\Extension;
 
-class MyExtension extends \Twig\Extension\AbstractExtension
+class MyTwigExtension extends \Twig\Extension\AbstractExtension
 {
     public function getFilters()
     {
+        // add a new filter named 'md5'
         return [
             new \Twig\TwigFilter('md5', 'md5'),
         ];

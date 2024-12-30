@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "cecil/installer",
-            "version": "1.0.3",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/composer-installer.git",
-                "reference": "dae9513ec1d7bfefa7bbf2e5e66f56cef4d961ae"
+                "reference": "c8a75ee5cfa367d91c5232abe3ddf96a409fd9a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/composer-installer/zipball/dae9513ec1d7bfefa7bbf2e5e66f56cef4d961ae",
-                "reference": "dae9513ec1d7bfefa7bbf2e5e66f56cef4d961ae",
+                "url": "https://api.github.com/repos/Cecilapp/composer-installer/zipball/c8a75ee5cfa367d91c5232abe3ddf96a409fd9a7",
+                "reference": "c8a75ee5cfa367d91c5232abe3ddf96a409fd9a7",
                 "shasum": ""
             },
             "require": {
@@ -50,16 +50,16 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Installer for Cecil's plugins and themes.",
+            "description": "Installer for Cecil's themes and extensions.",
             "keywords": [
                 "cecil",
+                "extensions",
                 "installer",
-                "plugins",
                 "themes"
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/composer-installer/issues",
-                "source": "https://github.com/Cecilapp/composer-installer/tree/1.0.3"
+                "source": "https://github.com/Cecilapp/composer-installer/tree/1.1.0"
             },
             "funding": [
                 {
@@ -71,16 +71,16 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-01-09T15:31:54+00:00"
+            "time": "2024-12-30T21:24:27+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
