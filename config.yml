@@ -1,0 +1,4 @@
+# Declares the plugin: enabling this component theme enables the plugin
+extensions:
+  plugins:
+    PluginExample: PluginExample\Plugin

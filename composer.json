@@ -1,23 +1,25 @@
 {
   "name": "cecil/plugin-example",
-  "type": "cecil-plugin",
-  "description": "Cecil plugin example",
-  "keywords": ["Cecil", "plugin", "example"],
+  "type": "cecil-theme",
+  "description": "Cecil plugin example: a component theme shipping a plugin (generator, Twig extension, post-processor and events subscriber)",
+  "keywords": ["Cecil", "plugin", "extension", "example"],
   "license": "MIT",
   "require": {
-    "cecil/installer": "^1.0"
+    "cecil/theme-installer": "^2.1"
   },
   "extra": {
-    "name": "example",
+    "cecil": {
+      "theme-name": "plugin-example"
+    },
     "branch-alias": {
-      "dev-master": "1.x-dev"
+      "dev-main": "2.x-dev"
     }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "config": {
     "allow-plugins": {
-      "cecil/installer": true
+      "cecil/theme-installer": true
     }
   }
 }
